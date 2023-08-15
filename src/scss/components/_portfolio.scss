@@ -1,0 +1,36 @@
+.portfolio {
+  padding: 300px 0;
+
+  &__item {
+    @include mb(100px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    will-change: transform;
+
+    &--reverse {
+      flex-direction: row-reverse;
+      will-change: transform;
+    }
+  }
+
+  &__img {
+    border-radius: 15px;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 42px;
+  }
+
+  &__descr {
+    margin: 0;
+  }
+}

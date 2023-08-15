@@ -1,10 +1,12 @@
 :root {
   // base
-  --font-family: "Gilroy", sans-serif;
-  --content-width: 1170px;
+  --font-family: "Outfit", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  --content-width: 1300px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light: #fff;
+  --main-color: #f4efec;
+  --text-color: #cdc6c3;
 }
